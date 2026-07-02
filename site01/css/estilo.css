@@ -1,0 +1,29 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+header, footer {
+    background-color: #1f1502;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 3em;
+    text-align: center;
+    padding-top:80px;
+}
+
+header p {
+    text-align: center;
+    font-size: .8em;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.laranja {
+    background-color: #ca4e30;
+}
