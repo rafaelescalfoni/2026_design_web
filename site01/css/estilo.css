@@ -17,11 +17,28 @@ header h1 {
 header p {
     text-align: center;
     font-size: .8em;
+    margin-bottom: 80px;
 }
 
 header a {
     color: #fff;
     text-decoration: none;
+}
+header li {
+    padding: 5px 10px;
+}
+
+header li:nth-child(1), 
+header li:hover {
+    background-color: #ac0047;
+}
+header ul {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom:40px;
+    width: 500px;
+    list-style: none;
 }
 
 .laranja {
