@@ -1,0 +1,28 @@
+/*Tela de celular*/
+@media (max-width:480px){
+    body {
+        background-color: pink;
+    }
+}
+
+/*Tela de tablet*/
+@media (min-width:481px) and (max-width:991px){
+    body {
+        background-color: blue;
+    }
+}
+
+
+/*Tela de desktop*/
+@media (min-width:992px) and (max-width:1199px){
+    body {
+        background-color: yellow;
+    }
+}
+
+/*Tela de computador grande*/
+@media (min-width:1200px){
+    body {
+        background-color: red;
+    }
+}
